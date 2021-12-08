@@ -1,9 +1,48 @@
+YOUR NAME Lab 1: Intro to HTML
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Links</title>
-  </head>
-  <body>
-    <h1>Links</h1>
-  </body>
+<html lang='en'
+    <head>
+        <title> Mahmud Cole Lab 1: Intro to HTML</title>
+    </head>
+    <body>
+        <h1>Mahmud Cole Lab 1: Intro to HTML</h1>
+        
+        <h2 class="subtitle"> First, the basics.</h2>
+        <p>You will need the following to build your website.</p>
+        <ul>
+            <li>HTML and CSS</li>
+            <li>Javascript</li>
+            <li>Node.js</li>
+        </ul>    
+            <p>Top 5 favorite albums:</p>
+                <ol>
+                    <li>Melodrama - Lorde</li>
+                    <li>Thriller - Michael Jackson</li>
+                    <li>The Velvet Rope - Janet Jackson</li>
+                    <li>Stankonia - OutKast</li>
+                    <li>Kids See Ghosts - Kids See Ghosts</li>
+                </ol>
+            <h2>Let's try some Inline Elements</h2>
+            <p>Sometimes you want to <em>draw attention to something,</em>in a line of text</p>
+            <p>Sometimes you want to <strong>strongly emphasize something</strong> in the text.</p>
+            <p>Sometimes you want to <em><strong>do both</strong></em></p>
+            <h3><p>My name is Mahmud Cole. Born and raised in Baltimore Maryland,
+                I am a senior persuing a degree in Government and Information Sciences,
+            I love music and playing the piano, these are things I value more than just about anything,
+        excluding my family. I am <em>excited for this course!</em> and for this year.</p></h3>
+        <p>Soft line breaks cab't wrap anything. Neither can image tags, or hard lines.</p>
+        <p>Add a hard line under here, and make sure you've used some sort of line breaks to match your page to the sample.</p>
+        <hr/>
+        <h2>Images</h2>
+        <p>Include the four images in the /images folder below</p>
+        <p> Di;t forget to use alt text on your images. It's important for accessibility.</p>
+        <img src="images/mochi.jpg" alt="mochi image"></img>
+        <img src="images/mochi.png" alt="mochi image"></img>
+        <img src="images/mochi.svg" alt="mochi image"></img>
+        <img src="images/mochi.gif" alt="mochi animated image"></img>
+        <br/>
+        <a href="https://github.com/mahmudc1/INST377-Lab-Work"> Include a hyperlink here to your github repository for class.</a>
+        <p>If you want your repo to be private, be sure to prive prof A as a "Collaborator."</p>
+    </body>
 </html>
